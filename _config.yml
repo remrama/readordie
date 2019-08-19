@@ -2,7 +2,6 @@ name: remrama
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 url: https://remrama.github.io/readordie
-baseurl: /readordie
 
 donation   : 5
 n_articles : 1
