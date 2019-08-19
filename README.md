@@ -1,6 +1,6 @@
 # readordie
 
-Looking for motivation to read more scientific articles?? [READ OR DIE](https://remrama.github.io/readordie) is your solution!
+Looking for motivation to read more scientific articles?? [READ OR DIE](https://remrama.github.io/readordie/) is your solution!
 
 Every week we all chip in to a PayPal "money pot" and only those who read articles and write blog posts about them over the course of a week get their money back. The others leave it in the pot.
 
