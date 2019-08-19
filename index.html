@@ -1,0 +1,24 @@
+---
+layout: default
+title: Home page
+---
+<div class="blurb">
+    <h1>&#128214 read or die &#128481</h1>
+    <p>
+        Need motivation to read? Join this group and if you don't read you will die.
+    </p>
+    <ol>
+        <li>
+            By <strong>{{ site.start_day }} {{ site.start_due }}</strong>, add ${{ site.donation }} to the <a href="https://paypal.me/pools/c/8huH01ax1W">money pool</a> and you're committed for the week.
+        </li>
+        <li>
+            Write <strong>{{ site.n_articles }} blog post{% if site.n_articles > 1 %}s{% endif %}</strong>, push them to your fork of the <a href="https://github.com/remrama/readordie">GitHub repo</a>, and submit a pull request by {{ site.end_day }} {{ site.end_due }}.
+        </li>
+        <li>
+            If you complete step 2:<br>
+            &emsp;You live, and your ${{ site.donation }} is returned by the next Monday 23:59.<br>
+            else:<br>
+            &emsp;You die, and your ${{ site.donation }} stays in the cumulative money pool.
+        </li>
+    </ol>
+</div>

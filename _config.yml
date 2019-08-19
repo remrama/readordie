@@ -1,0 +1,11 @@
+name: remrama
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+url: https://remrama.github.io/readordie
+
+donation   : 5
+n_articles : 1
+start_day  : Monday
+end_day    : Sunday
+start_due  : "23:59"
+end_due    : "23:59"
