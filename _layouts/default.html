@@ -3,14 +3,14 @@
 
 <head>
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="{{ "/css/main.css" | relative_url }}">
 </head>
 
 <body>
     <nav>
         <ul>
             <li><a href="{{ "/blog" | relative_url }}">Blog</a></li>
-            <li><a href="{{ "/forking/" | relative_url }}">Forking</a></li>
+            <li><a href="{{ "/forking" | relative_url }}">Forking</a></li>
         </ul>
     </nav>
     <div class="container">
