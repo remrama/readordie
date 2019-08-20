@@ -5,6 +5,10 @@
     color: #ffffff;
 }
 
+code {
+    font-family: monospace;
+}
+
 body {
     margin: 60px auto;
     width: 80%;
