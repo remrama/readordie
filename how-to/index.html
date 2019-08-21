@@ -9,14 +9,21 @@ title: How to
         <li>Create a <a href="https://github.com/join">GitHub account</a></li>
         <li>Create your own "fork" of the readordie repository by going to <a href="https://github.com/remrama/readordie">the repository</a> and clicking the <em>Fork</em> button.</li>
         <p align="center">
-            <img src="https://assets.digitalocean.com/articles/eng_python/PullRequest/GitHub_Repo.gif" width="30%" alt="location of fork button" /><br>
+            <img src="https://assets.digitalocean.com/articles/eng_python/PullRequest/GitHub_Repo.gif" width="20%" alt="location of fork button" /><br>
             Location of the Fork button on a different repo. It'll be in the same spot.
         </p>
-        <li>Go to your new fork of the repo and clone that repository onto your computer with the <em>Clone or download</em> button.</li>
-        <p align="center">
-            <img src="https://camo.githubusercontent.com/d82f76bc6a9bf6cbc11af92b3434ed932a4c0288/687474703a2f2f692e696d6775722e636f6d2f755363623878782e706e67" width="30%" alt="location of fork button" />
-        </p>
-        <li>Use <em>Terminal</em> to <code>cd</code> into your newly cloned repo and enter <code>git status</code>, which should tell you you are up-to-date! Now you are ready to add a post.</li>
+        <li>Use <em>Terminal</em> to clone your new forked repository onto your computer.</li>
+        <code>
+            &emsp;# move to the folder where you want to place your new repo<br>
+            &emsp;cd /my/favorite/folder/<br>
+            &emsp;# clone your forked repo onto your computer<br>
+            &emsp;git clone https://github.com/&lt;your_github_username&gt;/readordie.git<br>
+            &emsp;# move into the new repo<br>
+            &emsp;cd readordie<br>
+            &emsp;# check the status of your new repo! (it should say your are up-to-date)<br>
+            &emsp;git status<br>
+            &emsp;# now you are ready to add a post!
+        </code>
     </ol>
 
     <h1>How to make a post</h1>
@@ -26,9 +33,9 @@ title: How to
         <li>You <b>must save your file in the <code>_posts</code> directory.</b>
         <li>After writing your post, "commit" it to your forked repo:</li>
         <code>
-        &emsp;$ git add &lt;post_filename&gt;<br>
-        &emsp;$ git commit -m 'new post'<br>
-        &emsp;$ git push
+            &emsp;git add &lt;post_filename&gt;<br>
+            &emsp;git commit -m 'new post'<br>
+            &emsp;git push
         </code>
     </ol>
 
