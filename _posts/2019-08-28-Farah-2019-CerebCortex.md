@@ -1,10 +1,12 @@
- layout: post
- title: "Farah et al., 2019, Front Cerebral Cortex"
- author: tnug
- date: 2019-08-26 16:04:08 -0500
- tags: [EF, reading, visual]
- article_title: "Children Use Regions in the Visual Processing and Executive Function Networks during a Subsequent Memory Reading Task"
- article_doi:  https://doi-org.ezproxy.lib.utexas.edu/10.1093/cercor/bhz057
+---
+layout: post
+title: "Farah et al., 2019, Front Cerebral Cortex"
+author: tnug
+date: 2019-08-26 16:04:08 -0500
+tags: [EF, reading, visual]
+article_title: "Children Use Regions in the Visual Processing and Executive Function Networks during a Subsequent Memory Reading Task"
+article_doi:  https://doi.org/10.1093/cercor/bhz057
+---
 
 Overview: This study uses the reading system and what is known about the orchaestration of sevral neural systems that support fluent reading. The paper start with a discussion of the differen sensory and cognitive control systems that are involved in reading and the porcesses that they map onto. The authors also weave in a discussion of memory encoding and discuss how subsequent retrieval is shaped by encoding and discussing that remembered vs. forgotten words tend to have different neural patterns at time of encoding including in some left frontal cortex areas. The study is set up to test for differences in neural activity in children in the reading systems during encoding of words that were subsequently remembered or not. While they are testing the reading system the focus of the study seems to be memory encoding resources.  
 
