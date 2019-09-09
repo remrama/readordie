@@ -1,3 +1,4 @@
+---
 layout: post
 title: "Wang et al., 2019 Cognition"
 author: achennings
@@ -5,7 +6,7 @@ date: 2019-08-30
 tags: [episodic memory, suppression, implicit]
 article_title: "Reconsidering unconscious persistence: Suppressing unwanted memories reduces their indirect expression in later thoughts"
 article_doi: https://doi.org/10.1016/j.cognition.2019.02.016
-___
+---
 
 
 ## Motivation
