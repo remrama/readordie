@@ -1,3 +1,4 @@
+---
 layout: post
 title: ""
 author: achennings
@@ -5,9 +6,7 @@ date: 2019-08-30
 tags: [episodic memory, emotion, RSA]
 article_title: ""
 article_doi:
-
-Sorry Remy for already breaking the format. I did a lot of reading this week and was taking notes related to my project - but I think it counts as proof of reading.
-
+---
 
 #### Dunsmoor et al., 2014 _Cerebral Cortex_
 [Averisve Learning Modulates Cortical Representations of Object Cortex](https://academic.oup.com/cercor/article/24/11/2859/297931)
