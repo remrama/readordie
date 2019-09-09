@@ -1,6 +1,6 @@
 ---
 layout: post
-author: github_username
+author: authorname
 tags: []
 article_doi: https://doi.org/10.1027/0227-5910/a000078
 ---
