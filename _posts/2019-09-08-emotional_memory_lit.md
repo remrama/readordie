@@ -1,11 +1,7 @@
 ---
 layout: post
-title: ""
 author: achennings
-date: 2019-08-30
 tags: [episodic memory, emotion, RSA]
-article_title: ""
-article_doi:
 ---
 
 #### Dunsmoor et al., 2014 _Cerebral Cortex_
