@@ -1,6 +1,6 @@
 ---
 layout: post
-author: authorname
+author: jalewpea
 tags: [working memory, unconscious, silent, meg]
 ---
 
