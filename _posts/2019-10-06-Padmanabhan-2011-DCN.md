@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Padmanabhan
+author: macmitch
 tags: [motivation, cognitive control, inhibition, development]
 article_doi: https://doi.org/10.1016/j.dcn.2011.06.004
 ---
