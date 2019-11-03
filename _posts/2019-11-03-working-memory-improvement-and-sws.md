@@ -1,0 +1,18 @@
+---
+layout: post
+author: remrama
+tags: [WM, SWS]
+---
+
+Ferrarelli et al., 2019. An increase in sleep slow waves predicts better working memory performance in healthy individuals. _NeuroImage_. [link](https://doi.org/10.1016/j.neuroimage.2019.02.020)
+
+
+Slow-wave sleep (SWS) seems to be the cure for everything. It has been clearly implicated in memory improvement on declarative and procedural memories. Yet, the relationship between SWS and working memory is far less clear. Because working memory only deals with short delays (typically around 1-12 seconds), it makes no sense to test the improvement of _specific_ working memory items, whereas targeting specific memories is the foundation of a lot of the sleep and memory literature. Rather, to test the relationship between sleep and working memory, analyses focus on improvements in working memory as a function of SWS length or characteristics. Discussions in most of the previous SWS/WM papers often take the approach of SWS benefiting _intelligence_, and using working memory as some measure of that -- as in, sleep improves intelligence or cognitive performance generally.
+
+In this study, participants spent multiple nights in the lab, without leaving in-between! They basically lived at the lab for a few days. Though the paper does not focus on a special population, in the Methods it's revealed that all participants were "military active-duty service men between the ages of 18–50, who were previously deployed in support of the Global War on Terror." Work from this lab primarily focuses on health issues related to military service (with an emphasis on sleep), so this is not suprising and I'm sure this paper is the result of just a small portion of this presumably rich dataset.
+
+Participants performed an N-back task a few times on two days (11:20/15:20/19:20). When comparing day 1 and day 2 performance, each day performance was averaged across all 3 times. However, for the main analysis split into _improvers_ and _non-improvers_, "an 'improver' was defined as averaging 1 or more additional correct response during each of the three 48-trial sessions on Day 2 relative to Day 1." So this does not involve the averaging of scores, and participants needed to only increase by _1_ point, but on each test, so I guess emphasizing consistency a bit. However, for RTs, an improver "averaged faster RT on Day 2," and non-improver slower. I'm actually not sure if they ever run a statistical comparison of behavioral performance for improvers and non-improvers...
+
+The main analysis is comparing SWS characteristic changed from Night 1 to Night 2, and separately for participants who improved or did not improve on the N-back task. The main procedural layout is `sleep -> WM -> sleep -> WM`. They find that participants who did _not_ show N-back improvement have similar SWS in both nights, but for improvers, SWS on the second night showed increased SWS downl-slop and negative peaks (mostly frontal/right electrodes).
+
+Therefore, it seems that WM benefited from increased SWS characteristics. I was surprised/happy to read many references in the Intro/Discussion here about other recent papers showing support for nap benefits on working memory, although there are still so many fewer than other memory domains. I wonder if there is some file drawer issue here?? Are we only seeing the few studies that stumble across something amidst the many that have tried and failed? I hope not!
