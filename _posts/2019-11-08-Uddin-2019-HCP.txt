@@ -1,0 +1,20 @@
+---
+layout: post
+author: JACL
+tags: [variance,task,between-subject,fMRI,HCP]
+article_doi: https://doi.org/10.1002/hbm.24570
+---
+_Bolt T, Nomi JS, Bainter SA, Cole MW, Uddin LQ. 2019. The situation or the person? Individual and task-evoked differences in BOLD activity. HBM._
+Multivariate distance matrix regression from ROI to vertex level. 
+Differences in task conditions explained greater variance than between-person differences under most circumstances, but not at “high resolution” vertex level, when it flipped. 
+Strong assumption of spatial and temporal activity similarity across subjects. 
+416 HCP subjects, 7 tasks: emotion, gambling, language, motor, relational, social, working memory. 24 total task conditions. Surface analyses. Several levels of resolution: N=100, 200, 400, 600, 800 ROIs, = standard beta estimate. Cortex only. Distance represents dissimilarity in activation estimates between ROIs. Not thresholded. City block and Euclidean distance metrics. Z-scored. 9984x9984 (416x24) matrix. 
+
+Matrix analysis found that task differences explained more variance than subject differences **except** at the vertex level. Strangely, conditions within task maybe explained more variance than the task differences themselves? But later, conditions didn't drive clustering very much. I didn't find the clustering approach terribly informative - either 5 communities based largely on task input/output type, or a highly fractured set of 12 communities.
+They view their data as supporting Gratton et al. 2018, but I remembered the Gratton paper as having the opposite message (between-subject differences bigger than task differences) so I need to revisit that.
+Overall, I found this very readable, and useful when thinking about how to compare multiple tasks and individual differences, something the lab is attacking from multiple angles.
+
+<p align="center">
+    <img src="https://onlinelibrary.wiley.com/cms/attachment/651086d4-52a8-47b1-a9e5-7409d1dc564a/hbm24570-fig-0002-m.jpg" width="30%" /><br>
+    MDMR results. Whole‐brain activation map Euclidean distance matrix and explained variance estimates across “resolution” sizes. (a) The whole‐brain activation map Euclidean distance matrix presented in this figure was computed on vertex‐level data. Each box from top to bottom presents a progressively more “fine‐grained” view of the matrix, from the entire distance matrix (top), to a few subjects (middle), and a representative single subject (bottom). The pattern of distances within and across each task was similar across all resolutions and distance metrics (Euclidean and City block). (b) The graph in the right panel of the figure presents bootstrapped (N = 100) explained variance estimates for task paradigms (green; no conditions within the paradigm modeled), task‐conditions (blue; conditions within each paradigm modeled), and subject (red). All bootstrapped explained variance estimates are presented as scatter plot points in a box‐plot format to give a visualization of the variability in estimates across each bootstrapped sample. MDMR results on Euclidean and City block distance are presented in darker and brighter colors, respectively [Color figure can be viewed at wileyonlinelibrary.com].
+</p>
