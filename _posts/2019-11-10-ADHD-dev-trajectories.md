@@ -2,7 +2,7 @@
 layout: post
 author: tnugiel1
 tags: [ADHD, puberty, adolescence]
-article_doi:  DOI: 10.1111/desc.12721
+article_doi: 10.1111/desc.12721
 ---
 
 Overview: This work addresses differences in developmental trajectories of ADHD between females and males. In children ADHD is diagnosed at about a 3:1 ration between males and females. This drops off to close to a 1:1 ratio in ADHD in adults. This shift could be explained by a few things, later onset in females, greater persistence of symptoms in females possibly since males tend to display more hyperactive symptoms which can drop off over time. The authors though, state this could be an artifact of the way symptom burden is collected and diagnoses are made ie jumping off chairs is no longer really a thing in adulthood. Inattention symptom burden is more relevant in adulthood and there are less sex differences seen in this type of burden. Inattention my be particularly more burdensome in adulthood when individuals no longer live with parents and are more responsible for their own lives. Several posited explanations but importantly testing developmental trajectories of symptom burden as opposed to diagnostic status can help clarify some of these questions. Evidence from growth mixture modeling which the current study uses is mixed on whether there are sex differences in grouped trajectories of development. The current study attempts to address this by specifically focusing on sex as a moderator of these trajectories.   
