@@ -1,0 +1,21 @@
+---
+layout: post
+author: remrama
+tags: [WM,distraction,EEG]
+---
+
+Hakim et al., 2019, [Perturbing neural representations of working memory with task-irrelevant interruption](https://doi.org/10.1162/jocn_a_01481). _J Cogn Neurosci_
+
+This paper is very cool! As the authors highlight in the Introduction, working memory (WM) performs well under distraction -- but it's not perfect. In two experiments, they show a nice behavioral effect where a perceptual distractor impact performance (measured with capacity _K_). The purpose of the paper is to track the neural representations after distraction. They use two common neural indices -- the CDA and lateralized alpha (LA) -- to track neural representations. While these are both common indices of WM, they are proposed to measure different aspects of memory. The CDA is more commonly considered the memory item itself, while LA is more generally spatial attention, which could be of the memory but could also be visual attention. This distinction becomes clearer in the Discussion section when the authors are interpreting their results, and leads to really interesting ideas about why they had different timecourses of impact from distraction.
+
+Results aside, I think an important takeaway is that EEG (and the accompanying neural markers of WM) has some particular benefits when studying the impact of distraction on WM. First, the timecourse of recovery is likely to be fast, and so the temporal resolution here is highly desired, if not required. Second, their nice use of a centrally presented distractor does _not_ impact their neural measures, since both rely on lateralization. Both of these benefits overcome limitations we ran into with our [recent fMRI study](https://doi.org/10.1016/j.cortex.2019.08.019) of distraction recovery.
+
+I think the main results takeaway is the CDA and LA are impacted differently by distraction. Upon distraction, LA is immediately impacted but then recovers, while the CDA sustains briefly and then falls (i.e., impacted late). As the authors tease out in the Discussion, this is not so surprising when considering that LA is a also a measure of spatial attention, and the midline presentation of distractors likely grabbed visual attention away from the memory. The "recovery" of LA is a bit tough to interpret, since it could be the either the memorized location or just prepatory attention to the probe (or a mix). The impact of distraction on the CDA varied as a function of distraction probability/expectancy, but not LA. This is another nice distinction, since CDA is more likely a measure of the memory itself, whose representation might be modded to handle the distraction (since during the 75% trials they were less negatively impacted).
+
+The Discussion theorizes about how even though the CDA declines, memory performance is still high (even if lower than without distraction). So how are the memories still "present"? They go into the notion of silent memory representations, and alternatively how their measures might just not be detecting the active neural profile. A more interesting idea is that the LA is _used to recover the memory_. This is a neat idea, and I wonder if a more specific study design could get at this possibility.
+
+As a final note of interest, they point out that despite a brief moment of perseverance, the CDA _eventually drops_ on distraction trials and so maybe spatial attention is required to maintain the memory. So perhaps the spatial attention is _required_ to maintain the memory, and it's this disruption (of spatial attention) that impacts the memory. What a cool idea that could be followed up with some interesting experiments!
+
+* I know it would've been difficult given the overlap, but would've been cool to see the interruption presence/absence timecourses plotted along with the different interruption probabilities (in experiment 2). Just for visual comparison.
+* It's nice how they extended the delay period recovery window in experiment 2, as they say to see if LA would recover fully.
+* Not sure how common these numbers arae, but seems like they rejected a lot of trials based on artifacts: 21% in experiment 1 and 39% in experiment 2. In experiment 1, distraction trials were only 25%, so would also be nice to know how many of these were distraction trials.
