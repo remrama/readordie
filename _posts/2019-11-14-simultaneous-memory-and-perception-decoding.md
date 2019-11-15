@@ -1,0 +1,22 @@
+---
+layout: post
+author: remrama
+tags: [WM,distraction,fMRI]
+---
+
+Rademaker et al., 2019, [Coexisting representations of sensory and mnemonic information in human visual cortex](https://doi.org/10.1038/s41593-019-0428-x). _Nat Neurosci_
+
+
+This paper is (nearly?) a direct response to the views of Yaoda Xu originally proposed in the Bettencourt & Xu, 2016, _Nat Neurosci_ paper and later summarized in the Xu, 2017 _TiCS_ paper. This proposition is that only an inefficient working memory (WM) system would "reuse" sensory resources for memory representations (i.e., the sensory recruitment hypothesis). Aside from their experimental evidence showing that visual cortex can represent both memories and perception simultaneously, the Introduction here brings up some interesting theoretical arguments as to why this would be an _effective_ system. Most notably (I think), they highlight that one goal of WM is retain information _to compare_ with sensory representations. With this being the case, it makes most sense to utilize the same neural resources. Another point is that just because there is some neural system of maintenance in early visual areas doesn't mean that the exact same neural population is being recycled -- for example, it's possible that different layers are responsible for memory and perception.
+
+While their methods are advanced, the finding they present is very straight-forward. Across two experiments, they are able to decode (with both IEM and MVPA) _both a memorized orientation and a perceived orientation_ during a delay period, where the distraction is present the entire delay period. There are other nuances and control conditions, but I feel that is the main takeaway.
+
+For every participant, they get a value of decoding for both the memorized grating and the perceived/distraction grating, which they can compare in every ROI to see which was preferentially represented. **A very interesting outcome of this study is** that when moving up the visual heirarchy, there is a shift from preferential perception representation to preferential memory representation.
+
+Given that IPS is a frequently discussed ROI in the WM literature, and is specifically the main ROI proposed by some to represent memories rather than sensory cortex, it is notable that they found decoding of orientations in all ROIs _except_ IPS. But **crucially, this finding only holds during the sensory-trained decoders**. The authors perform their main analyses using decoding models that are trained on perceived gratings, but then rerun analyses using memory-trained models by training on delay period activity. **Here, IPS emerges as a substantial ROI for memory representations, and importantly did _not_ contain information of the perceived/distractor grating.** I think this finding is crucial for resolving the dispute between WM representations in IPS and early visual regions. **Further,** the visual ROI representations track with behavioral performance but IPS representations do not. This is totally in line with the notion that IPS has coarse representations and visual ROIs have precise representations. They point this out in the Discussion: "Instead, high-resolution pixel-by-pixel representations might be condensed into stable and low dimensional representations in higher cortical regions."
+
+The biggest limitation seems to come from supplementary figure 7, showing that the memorized grating is more easily decodable the closer it is to the perceived/distractor grating. So how are their results not confounded by this? They argument is that across all trials there is no predictable relationship between the memorized and percieved gratings. Yet, I'm not sure if it is impossible that the highly-similar distractor grating are driving the effect?? And more on the IPS finding, in this figure it looks qualitatively like IPS might actually be the only ROI that _is_ representing the memory item during distraction, since it looks like there is some decoding _when the distractor is far away (90)_, which is the least confounded trial type. Anyways, it would be nice to see the plots from this figure with the 30 and 60 degree distractors collapsed.
+
+
+* While all reconstructions look nice, they appear to have clearly different "baselines." I wonder what's up with that?
+* The notion that their MVPA analysis provides the same results is really interesting! IEM might be a more complicated analysis, and if MVPA can sometimes provide a similar result, is there a benefit of the trouble? That is, of course, if it's trouble.
