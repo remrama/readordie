@@ -11,7 +11,7 @@ Working memory (WM) responses are influenced by perceptual distractors, be it an
 The first experiment is a straight-forward replication of previous serial-dependence findings (i.e., orientation responses are biased towards that of the previous trial). **The crucial element though is the response probe.** In this common design, participants perceive a grating and then are prompted with a _continuous_ probe and have a reasonable amount of time to select their response (about 3 seconds to response in the current study). What the current authors highlight nicely is that it is unclear if that attractive bias is happening during the _perception_ of the next grating, or during the response period (i.e., _decision process_). Enter experiment 2.
 
 <p align="center">
-    <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0960982217300064-gr1.jpg" width="30%" /><br>
+    <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0960982217300064-gr1.jpg" width="70%" /><br>
     Task diagram for the first 2 experiments. (experiment three's task was a slight modification of experiment two's, and four's a modification of one's)
 </p>
 
