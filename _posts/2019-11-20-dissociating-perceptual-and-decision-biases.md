@@ -22,8 +22,11 @@ Experiment 3 involves minor changes in task from experiment 2. Beyond replicatin
 Experiment 4 provides strong evidence to support the "decision-based" or WM attractive biasing, by showing that the original biasing effects in experiment 1 are largely dependent on delay period. The longer the delay period, the stronger the attractive bias.
 
 They have nice discussion about the different functional roles of perception and WM:
+
 > We speculate that these opposite effects on perception and post-perceptual decision may derive from the distinct goals of perception and decision-making processes: whereas perception may be optimized for detecting changes in the environment, decision processes may integrate over longer time periods to form stable representations.
+
 > ...we speculate that the adaptation effect reported in the current study might be a consequence of one important goal of the visual system, namely to maximize sensitivity to changes in the physical environment.
+
 > Concurrently to adaptation effects in perception, the positive biases on post-perceptual working memory content and decisions might serve an important, yet distinct, functional role. Although it is vital to remain sensitive to changes in the immediate present, the physical environment does usually not change drastically over short timescales. Consequently, biasing working memory representations and thus perceptual decisions toward similar recent decisions would make those more robust to random fluctuations that do not reflect actual changes in the external environment.
 
 * Just a note about how great the writing is. There is no Introduction, and the motivations are baked very nicely into the Results section.
