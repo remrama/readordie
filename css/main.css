@@ -1,9 +1,9 @@
 * { /* apply to all */
-    font-family: 'Times';
+    font-family: 'Arial';
     font-size: 1em;
     line-height: 1em;
-    color: #ffffff;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #000000;
+    /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
 }
 
 code {
@@ -13,14 +13,18 @@ code {
 body {
     margin: 60px auto;
     width: 80%;
-    background-image: url("https://backgroundcheckall.com/wp-content/uploads/2017/12/dripping-blood-black-background-6034.png");
-    background-repeat: repeat;
-    background-size: cover;
+    background-color: #FFE4C4;
 }
 
 /* hyperlinks */
-a { text-decoration: none; color: #0000ff; text-shadow: -1px -1px 0 #999, 1px -1px 0 #999, -1px 1px 0 #999, 1px 1px 0 #999; }
-a:hover { text-decoration: underline; }
+a { 
+    text-decoration: none; color: #6495ED;
+}
+a:hover { 
+    text-decoration: underline; 
+/*    text-shadow: -1px -1px 0 #00008B, 1px -1px 0 #00008B,
+                 -1px 1px 0 #00008B, 1px 1px 0 #00008B;*/
+}
 
 /*p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }*/
 
